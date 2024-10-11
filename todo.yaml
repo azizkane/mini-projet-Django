@@ -2,7 +2,7 @@ Mini-projet Django : Gestion des Employés, Dirigeants et Congés
 
 Étape 1 : Initialisation du Projet Django
 - Créer un environnement virtuel et installer Django.
-- Créer le projet Django : django-admin startproject gestion_entreprise.
+- Créer le projet Django : django-admin startproject gestion_entreprise. {renommé mini_projet}
 - Créer une application 'employes' : python manage.py startapp employes.
 - Configurer les paramètres du projet :
 - Ajouter l'application 'employes' dans INSTALLED_APPS.
