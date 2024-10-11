@@ -1,9 +1,6 @@
 from django.db import models
 from .employe import Employe
 
-from django.utils import timezone
-from django.contrib.auth.models import User
-
 
 # Méthode 1: Associer Dirigeant à Employe en utilisant un champ OneToOneField
 class Dirigeant(models.Model):
