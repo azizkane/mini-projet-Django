@@ -29,15 +29,15 @@ Mini-projet Django : Gestion des Employés, Dirigeants et Congés
 - Filtrer les Conge par employé, type de congé ou statut.
 - Filtrer les Employe par poste ou date d'embauche.
 - Configurer des permissions :
-- Créer des permissions pour que seuls les dirigeants puissent approuver ou refuser des demandes de congé.
+- Créer des permissions pour que seuls les dirigeants puissent approuver ou refuser des demandes de congé. ????????????????????????????????????????????????????
 
 Étape 4 : Gestion des Droits et des Utilisateurs
 - Créer des groupes d'utilisateurs :
-- Ajouter des groupes pour les Employe et les Dirigeant avec des permissions spécifiques.
+- Ajouter des groupes pour les Employe et les Dirigeant avec des permissions spécifiques. ?????????????????????????????????????????????????????????????????????
 - Les dirigeants peuvent approuver ou refuser les congés, tandis que les employés peuvent uniquement demander des congés.
 - Configurer les restrictions d'accès aux API :
 - Utiliser des permissions basées sur les rôles pour restreindre l'accès à certaines fonctionnalités de l'API.
-- Les employés peuvent consulter et créer des demandes de congé, mais ne peuvent pas les approuver.
+- Les employés peuvent consulter et créer des demandes de congé, mais ne peuvent pas les approuver. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - Configurer l'authentification :
 - Ajouter une authentification par Token ou JWT pour protéger les endpoints.
 - S'assurer que les utilisateurs ne peuvent accéder qu'aux ressources autorisées.
